@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* CSS 2.1
+==================================== */
+
+@media all {
+	html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, hr, td { margin: 0; padding: 0; }  
+}
+
+/* General Site Style Settings
+==================================== */
+@media screen, projection, print {
+	
+	ul{
+		margin-left:3em;
+	}
+	h1{
+		margin:0.5em;
+	}
+	p{
+		margin:1em;
+	}
+	.mouse_menu {
+		margin:0;
+		visibility:hidden;
+		position:absolute;
+		width:100px;
+		border-top: 1px solid #f0f0f0;
+		border-left: 1px solid #f0f0f0;
+		border-right: 1px solid #a9a9a9;
+		border-bottom: 1px solid #a9a9a9;
+		background-color:#eee;
+		list-style-type: none;
+		color:#000;
+	}
+	.mouse_menu li {
+		padding:2px 5px;
+		cursor:default;
+	}
+	.mouse_menu li:hover {
+		background-color:#ccc;
+	}
+
+	.mouse_menu .break {
+		padding: 2px;
+	}
+	.mouse_menu .break:hover {
+		background-color:#eee;
+	}
+	.mouse_menu .break hr{
+		color:#eee;
+		border-top: 1px solid #f0f0f0;
+		border-left: 1px solid #f0f0f0;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	#click_field{
+		margin:4em 1em 0em 1em;
+		height:400px;
+		border:1px solid #000;
+		
+	}
+
+	#click_field p{
+		font-weight:bold;
+	}
+}

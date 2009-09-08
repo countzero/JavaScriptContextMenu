@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<head>
+<title>Cross-browser compatible right click context menu in JavaScript</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="language" content="de" />
+<meta name="description" content=""/>
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow, noarchive" />
+<link rel="stylesheet" href="default.css" type="text/css" />
+<script type="text/javascript" src="default.js"></script>
+</head>
+<body>
+
+	<h1>Cross-browser compatible right click context menu in JavaScript</h1>
+
+	<p>Compatible with all browsers: <b>Internet Explorer 6+, Firefox 3, Chrome 1, Safari 3, Opera 9*</b></p>
+	<p><b>*</b> If you are using Opera you need to enable the following settings in Tools -> Preferences -> Content -> JavaScript Options...</p>
+
+		<ul>
+			<li>Allow raising of windows</li>
+			<li>Allow lowering of windows</li>
+			<li>Allow script to receive right clicks</li>
+		</ul>
+	
+	<p><b>Blog:</b> <a href="http://finnrudolph.de/Blog/Cross-browser_compatible_right_click_context_menu_in_JavaScript">http://finnrudolph.de/Blog/Cross-browser_compatible_right_click_context_menu_in_JavaScript</a></p>
+
+	 <div id="click_field">
+		<p>Right click anywhere inside this box!</p>
+		<ul id="mouse_menu_right" class="mouse_menu" >
+			<li>Edit</li>
+			<li>Copy</li>
+			<li>Rename</li>
+			<li>Delete</li>
+			<li class="break"><hr /></li>
+			<li id="mouse_menu_debug">debug_pos</li>
+		</ul>
+	</div>
+
+	<p>Please note that the default context menu of the browser will only be suppressed on right clicks <i>inside</i> the box!</p>
+
+</body>
+</html>
