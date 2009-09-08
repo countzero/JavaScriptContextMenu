@@ -1,8 +1,8 @@
 h1. Cross-browser compatible right click context menu in JavaScript
 
-Compatible with all browsers: Internet Explorer 6+, Firefox 3, Chrome 1, Safari 3, Opera 9^1^
+Compatible with all browsers: Internet Explorer 6+, Firefox 3, Chrome 1, Safari 3, Opera 9*
 
-^1^If you are using Opera you need to enable the following settings in Tools -> Preferences -> Content -> JavaScript Options...
+ *If you are using Opera you need to enable the following settings in Tools -> Preferences -> Content -> JavaScript Options...
 * Allow raising of windows
 * Allow lowering of windows
 * Allow script to receive right clicks
